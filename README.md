@@ -1,4 +1,4 @@
-#OpenMV Cam
+# OpenMV Cam
 
 This repository is a collection of documentation, tutorials, and examples for the <a href='https://www.amazon.com/gp/product/B075YP81JR'>Waveshare 7.5inch 3-collor E-Ink Displae</a>
 
