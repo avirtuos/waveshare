@@ -2,7 +2,7 @@
 
 This repository is a collection of documentation, tutorials, and examples for the <a href='https://www.amazon.com/gp/product/B075YP81JR'>Waveshare 7.5inch 3-collor E-Ink Displae</a>
 
-![alt tag](https://raw.githubusercontent.com/avirtuos/waveshare/master/doc/img/waveshare-e-ink.jpg)
+![alt tag](https://github.com/avirtuos/waveshare/blob/master/docs/img/waveshare-e-ink.jpg?raw=true)
 
 ## Software Setup
 
