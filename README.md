@@ -80,3 +80,11 @@ sudo apt-get install fonts-freefont-ttf
 |DC	25 |(GPIO)|
 |RST	|17 (GPIO)|
 |BUSY	|24 (GPIO)|
+
+### Enclosures
+
+Check out my <a href='https://github.com/avirtuos/openscad/tree/master/waveshare'>waveshare OpenSCAD repo</a> for enclosures that you can 3D print for your display.
+
+Like this Kindle Oasis like cass, that fits a raspberry pi zero w and lipo w/charger:
+
+![alt tag](https://github.com/avirtuos/openscad/blob/master/waveshare/docs/img/waveshare_case.png?raw=true)
