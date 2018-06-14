@@ -44,7 +44,7 @@ class MyHandler(BaseHTTPRequestHandler):
 
             self.end_headers()
             upfilecontent = query.get('upfile')
-            print "filecontent", len(upfilecontent[0])
+            print("filecontent", len(upfilecontent[0]))
 
             out = open("test.bmp", 'wb')
             out.write(upfilecontent[0])
@@ -58,17 +58,17 @@ class MyHandler(BaseHTTPRequestHandler):
             epd.display_frame(epd.get_frame_buffer(image))
             self.wfile.write("<HTML>OK.<BR><BR>");
 
-        except Exception, e:
+        except Exception as e:
             print("ERROR....%s" % str(e))
             traceback.print_exc()
 
 def main():
+    server = HTTPServer(('', 80), MyHandler)
+    print('started httpserver...')
     try:
-        server = HTTPServer(('', 80), MyHandler)
-        print 'started httpserver...'
         server.serve_forever()
     except KeyboardInterrupt:
-        print '^C received, shutting down server'
+        print('^C received, shutting down server')
         server.socket.close()
 
 if __name__ == '__main__':
